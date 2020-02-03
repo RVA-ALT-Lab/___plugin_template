@@ -39,3 +39,5 @@ if ( ! function_exists('write_log')) {
       }
    }
 }
+
+  //print("<pre>".print_r($a,true)."</pre>");
