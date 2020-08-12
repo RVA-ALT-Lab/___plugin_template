@@ -1,10 +1,10 @@
 <?php 
 /*
-Plugin Name: ALT Lab Check If User Is Logged In 
+Plugin Name: ALT Lab Something or rather
 Plugin URI:  https://github.com/
-Description: Simple check to see if user is logged in and then do stuff
+Description: For stuff that's magical
 Version:     1.0
-Author:      ALT Lab (matt roberts)
+Author:      ALT Lab
 Author URI:  http://altlab.vcu.edu
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,8 +21,8 @@ function prefix_load_scripts() {
     $deps = array('jquery');
     $version= '1.0'; 
     $in_footer = true;    
-    wp_enqueue_script('check-if-logged-in-main-js', plugin_dir_url( __FILE__) . 'js/check-if-logged-in-main.js', $deps, $version, $in_footer); 
-    wp_enqueue_style( 'check-if-logged-in-main-css', plugin_dir_url( __FILE__) . 'css/check-if-logged-in-main.css');
+    wp_enqueue_script('prefix-main-js', plugin_dir_url( __FILE__) . 'js/prefix-main.js', $deps, $version, $in_footer); 
+    wp_enqueue_style( 'prefix-main-css', plugin_dir_url( __FILE__) . 'css/prefix-main.css');
 }
 
 
